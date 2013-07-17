@@ -10,7 +10,7 @@ Usage
 
 ```go
 
-  result, ok := (controllers.App{helpers.MockController("App","Index")}.Index()).(*revel.RenderTemplateResult)
+  result, ok := (controllers.App{revel_mock.MockController("App","Index")}.Index()).(*revel.RenderTemplateResult)
   t.Assert(ok) //succeeded creating rendertemplate result
   t.Assert(result.RenderArgs["variable"] == value)
 
