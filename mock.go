@@ -1,7 +1,7 @@
 package revel_mock
 
 import (
-  "github.com/robfig/revel"
+  "github.com/revel/revel"
   "net/http/httptest"
   "net/http"
 )
